@@ -11,7 +11,7 @@ int findSubstr(char *str1 , char *str2)
 	int lps[strlen(str2)];
 	
 	lps[0] = 0;
-	
+	int i=0,j=1;
 	while(j<strlen(str2))												
 	{
 		if(str2[i] == str2[j])
